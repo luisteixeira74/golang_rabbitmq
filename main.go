@@ -17,7 +17,7 @@ func main() {
 		})
 	})
 
-	r.GET("/sender", func(c *gin.Context) {
+	r.POST("/sender", func(c *gin.Context) {
 		var message NewMessage
 
 		if err := c.BindJSON(&message); err != nil {
