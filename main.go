@@ -27,7 +27,7 @@ func main() {
 		Publisher(message.Message)
 
 		c.JSON(200, gin.H{
-			"message": "sender complete!",
+			"message": message.Message,
 		})
 	})
 

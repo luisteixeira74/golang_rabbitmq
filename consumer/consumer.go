@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-	time.Sleep(time.Second * 15)
+	time.Sleep(time.Second * 5)
 
 	consumer()
 }
