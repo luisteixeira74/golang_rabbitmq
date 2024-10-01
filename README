@@ -1,4 +1,8 @@
 
+# Criando um pub/sub para enviar mensagem para fila do RabbitMq e consumindo numa api Golang
+
+O projeto cria 2 containers docker um para a api em Go e outro com uma img do RabbitMq. A comunicação será feita através da lib ampq numa fila chamada jobs
+
 ## Documentação
 
 Passo a passo para executar e instalar o projeto
@@ -31,3 +35,5 @@ para acessar o container do golang pode ser via vscode no proprio plugin do dock
 
 cd consumer  
 go run consumer.go
+
+
